@@ -3,7 +3,8 @@
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
@@ -13,9 +14,10 @@
   }
 }
 /* Styles for Desktop devices */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .container {
-    max-width: 1440x;
+    /* width: 1024px; */
+    max-width: 1440px;
     padding: 0 64px;
   }
 }
